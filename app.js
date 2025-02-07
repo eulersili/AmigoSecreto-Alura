@@ -28,10 +28,10 @@ function verificarChute() {
     }
     else {
         if (chute > numeroSecreto) {
-            exibirTextoNaTela('p', 'O número secreto é menor!');
+            exibirTextoNaTela('p', `O número secreto é menor que ${chute}`);
         }
         else {
-            exibirTextoNaTela('p', 'O número secreto é maior!');
+            exibirTextoNaTela('p', `O número secreto é maior que ${chute}`);
         }
         tentativa++;
         limparCampo();
